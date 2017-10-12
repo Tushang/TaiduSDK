@@ -24,7 +24,7 @@ Taidusdk is a custom tool SDK.
   s.homepage         = 'https://github.com/Tushang/TaiduSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lxyang6688@163.com' => 'moyunmo@hotmail.com' }
+  s.author           = { 'lxyang6688@163.com' => 'lxyang6688@163.com' }
   s.source           = { :git => 'https://github.com/Tushang/TaiduSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
