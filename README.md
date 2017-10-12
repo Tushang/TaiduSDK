@@ -22,7 +22,7 @@ pod 'TaiduSDK'
 
 ## Author
 
-momo605654602@gmail.com, moyunmo@hotmail.com
+lxyang6688@163.com, moyunmo@hotmail.com
 
 ## License
 
