@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TaiduSDK_Tests' do
+  pod 'TaiduSDK', :path => '../'
+  
+  
+end
