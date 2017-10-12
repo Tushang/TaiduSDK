@@ -1,0 +1,16 @@
+PODS:
+  - TaiduSDK (1.0.0)
+
+DEPENDENCIES:
+  - TaiduSDK (from `../`)
+
+EXTERNAL SOURCES:
+  TaiduSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TaiduSDK: 9e9e45682adbcba492f7504489a0c48d1df5d61e
+
+PODFILE CHECKSUM: e825c3649cc32ae0af98daf5847f0bfdfedde9e5
+
+COCOAPODS: 1.2.0

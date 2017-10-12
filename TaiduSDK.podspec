@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TaiduSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TaiduSDK.'
+  s.version          = '1.0.0'
+  s.summary          = 'A customize tool'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Taidusdk is a custom tool SDK.
                        DESC
 
-  s.homepage         = 'https://github.com/momo605654602@gmail.com/TaiduSDK'
+  s.homepage         = 'https://github.com/Tushang/TaiduSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'momo605654602@gmail.com' => 'moyunmo@hotmail.com' }
-  s.source           = { :git => 'https://github.com/momo605654602@gmail.com/TaiduSDK.git', :tag => s.version.to_s }
+  s.author           = { 'lxyang6688@163.com' => 'moyunmo@hotmail.com' }
+  s.source           = { :git => 'https://github.com/Tushang/TaiduSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TaiduSDK/Classes/**/*'
+  s.vendored_frameworks = 'TaiduSDK/Classes/Taidusdk.framework'
   
-  # s.resource_bundles = {
-  #   'TaiduSDK' => ['TaiduSDK/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'SceneKit','AVFoundation','SystemConfiguration'
 end
